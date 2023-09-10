@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Poppins:wght@200&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    font-family: "Montserrat", sans-serif;
+    background: url(assests/blurred-background.jpg) no-repeat center center/ cover;
+}
+
+.header {
+    font-size: 1.5rem;
+    border: 2px solid #fff;
+    background-color: #000000;
+    color: #fff;
+    border-radius: 1rem;
+    width: 80%;
+    margin: 20px auto;
+    padding: 5px;
+}
+
+.main-content {
+    width: 100%;
+    background-color: #fff;
+    border: 2px solid bisque;
+    border-radius: 1rem;
+    padding: 50px 40px;
+    box-sizing: 0 0 40px;
+}
+
+.main-content .text-area {
+    font-size: 2rem;
+    line-height: 1.5;
+}
+
+.main-content .person {
+    font-size: 2.5rem;
+    padding-top: 20px;
+    text-transform: uppercase;
+    color: red;
+}
+
+.button {
+    width: 10rem;
+    height: 2.5rem;
+    margin-top: 25px;
+    cursor: pointer;
+    border: none;
+    background-color: linear-gradient(to bottom, #042921, #7c3c3c);
+    color: #000;
+    transition: background 0.3s ease-in-out;
+    border-radius: 2.5rem;
+}
+
+.button:hover {
+    background: linear-gradient(to bottom, #042921, #7c3c3c);
+    color: #b0a3a3;
+}
